@@ -1,2 +1,2 @@
-# LaundryQ
-Solusi Monitoring and Tracking Laundry
+# LaundryQ - Solusi Laundryku
+LaundryQ merupakan aplikasi yang dapat membantu proses bisnis laundry secara manual menjadi otomatis. Hal ini diperkuat dengan hampir lebih dari 90% pelanggan laundry kebanyakan adalah kalangan mahasiswa yang sudah terbiasa untuk menggunakan aplikasi mobile. Sehingga dengan adanya aplikasi LaundryQ, diharapkan baik pelanggan dan pemilik toko mendapatkan manfaat kemudahannya. 
