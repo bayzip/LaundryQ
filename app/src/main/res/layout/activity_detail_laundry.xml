@@ -57,7 +57,9 @@
                 android:layout_height="60dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:src="@drawable/a" />
+                android:src="@drawable/a"
+                android:contentDescription="@string/todo"
+                android:layout_alignParentStart="true" />
 
             <TextView
                 android:id="@+id/TextView_idOutlet"
@@ -66,7 +68,9 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
                 android:layout_marginLeft="75dp"
-                android:text="ID Laundry" />
+                android:text="@string/id_laundry"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="75dp" />
 
 
             <TextView
@@ -75,7 +79,8 @@
                 android:layout_height="wrap_content"
                 android:layout_alignLeft="@+id/TextView_idOutlet"
                 android:layout_below="@+id/TextView_idOutlet"
-                android:text="Nama Laundry" />
+                android:text="@string/nama_laundry"
+                android:layout_alignStart="@+id/TextView_idOutlet" />
 
             <TextView
                 android:id="@+id/TextView_laundryDate"
@@ -83,7 +88,8 @@
                 android:layout_height="wrap_content"
                 android:layout_alignLeft="@+id/TextView_namaOutlet"
                 android:layout_below="@+id/TextView_namaOutlet"
-                android:text="Tanggal Laundry" />
+                android:text="@string/tanggal_laundry"
+                android:layout_alignStart="@+id/TextView_namaOutlet" />
 
         </RelativeLayout>
 
@@ -105,28 +111,28 @@
                 android:textStyle="bold"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Rincian Cucian" />
+                android:text="@string/rincian_cucian" />
 
             <TextView
                 android:id="@+id/no_pesanan"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="No. Pesanan : 15" />
+                android:text="@string/no_pesanan_15" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Layanan     : Reguler" />
+                android:text="@string/layanan_reguler" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Parfum      : Molto Mewah" />
+                android:text="@string/parfum_molto_mewah" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Berat          : 2kg"/>
+                android:text="@string/berat_2kg"/>
 
         </LinearLayout>
 
@@ -148,24 +154,24 @@
                 android:textStyle="bold"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Rincian Biaya" />
+                android:text="@string/rincian_biaya" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Cucian       : Rp. 15.000,-" />
+                android:text="@string/cucian_rp_15_000" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Layanan    : Rp. 3.000,-" />
+                android:text="@string/layanan_rp_3_000" />
 
             <TextView
                 android:paddingTop="10dp"
                 android:textSize="20sp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Total Biaya    : Rp. 18.000,-"/>
+                android:text="@string/total_biaya_rp_18_000"/>
 
         </LinearLayout>
 

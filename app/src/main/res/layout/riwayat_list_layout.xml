@@ -13,7 +13,8 @@
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:background="#eee"
-        android:scaleType="centerCrop"/>
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/todo" />
 
     <LinearLayout
         android:orientation="vertical"
@@ -21,14 +22,16 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:paddingLeft="8dp"
-        android:paddingRight="5dp">
+        android:paddingRight="5dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="5dp">
 
         <TextView
             android:id="@+id/nama_toko"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textStyle="bold"
-            android:text="Nama Toko"
+            android:text="@string/nama_toko"
             android:textColor="#000"
             android:textSize="18sp"/>
 
@@ -36,7 +39,7 @@
             android:id="@+id/tanggal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="02 April 2018"
+            android:text="@string/_02_april_2018"
             android:layout_marginTop="6dp"
             android:layout_marginBottom="6dp"
             android:textSize="16sp"/>
@@ -45,7 +48,7 @@
             android:id="@+id/berat_biaya"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="3kg - Rp. 12.000,-"
+            android:text="@string/_3kg_rp_12_000"
             android:textSize="16sp" />
     </LinearLayout>
 
@@ -53,7 +56,7 @@
         android:id="@+id/status"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Selesai"
+        android:text="@string/selesai"
         android:background="#52a321"
         android:textColor="#fff"
         android:padding="5dp"

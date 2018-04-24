@@ -9,10 +9,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="LaundryQ"
+        android:text="@string/laundryq"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:textSize="24dp"
+        android:textSize="24sp"
         android:textAlignment="center"/>
 
 </RelativeLayout>
