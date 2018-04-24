@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity"
+    tools:context=".RegisterActivity"
     android:fitsSystemWindows="true">
 
     <LinearLayout
@@ -14,6 +14,20 @@
         android:paddingTop="56dp"
         android:paddingRight="24dp"
         android:paddingLeft="24dp" >
+
+        <!--email-->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:inputType="textEmailAddress"/>
+        </android.support.design.widget.TextInputLayout>
 
         <!--username-->
         <android.support.design.widget.TextInputLayout
@@ -43,7 +57,21 @@
                 android:inputType="textPassword"/>
         </android.support.design.widget.TextInputLayout>
 
-        <!--login btn-->
+        <!--password confirmation-->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText
+                android:id="@+id/password-confirmation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Konfirmasi Password"
+                android:inputType="textPassword"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <!--register btn-->
         <android.support.v7.widget.AppCompatButton
             android:id="@+id/btn_login"
             android:layout_width="fill_parent"
@@ -53,18 +81,19 @@
             android:background="@color/colorPrimaryDark"
             android:textColor="#fff"
             android:padding="12dp"
-            android:text="Login"
-            android:onClick="Login"/>
+            android:text="Register"
+            android:onClick="Register"/>
 
-        <!--register link-->
-        <TextView android:id="@+id/link_register"
+        <!--Login link-->
+        <TextView android:id="@+id/link_login"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="24dp"
-            android:text="Belum punya akun? Daftar sekarang"
+            android:text="Sudah punya akun? Masuk"
             android:gravity="center"
             android:textSize="16dip"
-            android:onClick="Register"/>
+            android:onClick="Login"/>
 
     </LinearLayout>
+
 </ScrollView>

@@ -1,4 +1,4 @@
-package com.example.muhedwardc.laundryq;
+package app.laundryq;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -11,19 +11,19 @@ import android.widget.TextView;
 
 public class CustomAdapter extends BaseAdapter {
     Context c;
-    int[] fotoToko = {R.drawable.edward, R.drawable.adin, R.drawable.sofyan, R.drawable.ashil, R.drawable.rachmad, R.drawable.muhammad};
-    String[] namaToko = {"Edward Laundry", "Adin Laundry", "Sofyan Laundry", "Ashil Laundry", "Rachmad Laundry", "Muhammad Laundry"};
-    String[] tanggal = {"02 April 2018", "30 Maret 2018", "28 Maret 2018", "24 Maret 2018", "22 Maret 2018", "2 Maret 2018"};
-    double[] berat = {5, 4.5, 3, 2.2, 3, 3.2};
-    String[] status = {"Dalam Proses", "Selesai", "Selesai", "Selesai", "Selesai", "Batal"};
-    String[] id = {"000001", "000002", "000003", "000004", "000005", "000006"};
-    String[] noPesanan = {"0023", "0123", "0081", "0010", "0002", "0003"};
-    String[] parfum = {"Lavender", "Aqua", "Sakura", "Sakura", "Lavender", "Sakura"};
-    String[] layanan = {"Normal", "Normal", "Normal", "Normal", "Normal", "Normal"};
-    int[] rating = {4, 4, 5, 5, 3, 4};
+    int[] fotoToko = {R.drawable.adin, R.drawable.sofyan, R.drawable.ashil, R.drawable.rachmad, R.drawable.muhammad, R.drawable.edward, R.drawable.edward};
+    String[] namaToko = {"Adin Laundry", "Sofyan Laundry", "Ashil Laundry", "Rachmad Laundry", "Muhammad Laundry", "Edward Laundry", "Edward Laundry"};
+    String[] tanggal = {"02 April 2018", "28 Maret 2018", "24 Maret 2018", "22 Maret 2018", "2 Maret 2018", "1 Maret 2018", "1 Maret 2018"};
+    double[] berat = {5, 4.5, 3, 2.2, 3.2, 4, 2.5};
+    String[] status = {"Dalam Proses", "Selesai", "Selesai", "Selesai", "Batal", "Selesai", "Selesai"};
+    String[] id = {"000001", "000002", "000004", "000005", "000006", "000012", "000012"};
+    String[] noPesanan = {"0023", "0123", "0010", "0002", "0003", "0123", "0122"};
+    String[] parfum = {"Lavender", "Aqua", "Sakura", "Lavender", "Sakura", "Jeruk", "Jeruk"};
+    String[] layanan = {"Normal", "Normal", "Normal", "Normal", "Normal", "Normal", "Normal"};
+    int[] rating = {4, 4, 5, 3, 4, 5};
 
 
-    public CustomAdapter (Context ctx) {
+    public CustomAdapter(Context ctx) {
         this.c = ctx;
     }
 
@@ -55,15 +55,12 @@ public class CustomAdapter extends BaseAdapter {
         TextView mStatus = convertView.findViewById(R.id.status);
 
         Double d = new Double(berat[i] * 4000);
-        int ribuan = d.intValue()/1000;
-        int ratusan = d.intValue()%1000;
-
-        if (ratusan == 0) mBeratBiaya.setText(berat[i] + "kg - Rp." + ribuan + ".000");
-        else mBeratBiaya.setText(berat[i] + "kg - Rp." + ribuan + "." + ratusan);
+        int biaya = d.intValue();
 
         mFotoToko.setImageResource(fotoToko[i]);
         mNamaToko.setText(namaToko[i]);
         mTanggal.setText(tanggal[i]);
+        mBeratBiaya.setText(berat[i] + "kg - Rp. " + biaya);
         mStatus.setText(status[i]);
         if (status[i] == "Dalam Proses") mStatus.setBackgroundColor(Color.parseColor("#fdd835"));
         else if (status[i] == "Sukses") mStatus.setBackgroundColor(Color.parseColor("#64dd17"));
@@ -72,4 +69,3 @@ public class CustomAdapter extends BaseAdapter {
         return convertView;
     }
 }
-

@@ -1,16 +1,11 @@
 <resources>
     <string name="app_name">LaundryQ</string>
+    <string name="title_home">Home</string>
+    <string name="title_help">Help</string>
+    <string name="title_profile">Profile</string>
 
-    <!-- Strings related to Detail Laundry Activity -->
-    <string name="title_detail_laundry">DetailLaundry</string>
-    <string name="detail_laundry">DETAIL LAUNDRY</string>
-    <string name="no_pesanan">No Pesanan     :</string>
-    <string name="layanan">Layanan     :</string>
-    <string name="parfum">Parfum     :</string>
-    <string name="berat">Berat     :</string>
-    <string name="detail_pembayaran">Detail Pembayaran</string>
-    <string name="biaya_cucian">Biaya Laundry     :</string>
-    <string name="biaya_layanan">Biaya Pelayanan     :</string>
-    <string name="biaya_total">Total Biaya     :</string>
-    <string name="test_text">TextView Test</string>
+    <string name="long_text">Android is a mobile operating system developed by Google, based on a modified version of the Linux kernel and other open source software and designed primarily for touchscreen mobile devices such as smartphones and tablets. In addition, Google has further developed Android TV for televisions, Android Auto for cars, and Android Wear for wrist watches, each with a specialized user interface. Variants of Android are also used on game consoles, digital cameras, PCs and other electronics</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
