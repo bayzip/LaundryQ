@@ -21,9 +21,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Detail Laundry"
+                android:text="@string/detail_laundry"
                 android:textColor="#000"
-                android:textSize="16dp"/>
+                android:textSize="16sp"/>
 
             <TextView
                 android:id="@+id/detail_status"
@@ -35,7 +35,7 @@
                 android:paddingRight="8dp"
                 android:background="#55a231"
                 android:textColor="#fff"
-                android:textSize="16dp"
+                android:textSize="16sp"
                 android:text="Selesai"/>
 
         </RelativeLayout>
@@ -62,21 +62,21 @@
                     android:id="@+id/detail_id"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="18dp"
-                    android:text="ID Outlet"/>
+                    android:textSize="18sp"
+                    android:text="@string/id_laundry"/>
 
                 <TextView
                     android:id="@+id/detail_toko"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="18dp"
-                    android:text="Nama Toko"/>
+                    android:textSize="18sp"
+                    android:text="@string/nama_toko"/>
 
                 <TextView
                     android:id="@+id/detail_rating"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="18dp"
+                    android:textSize="18sp"
                     android:text="Rating"/>
             </LinearLayout>
 
@@ -95,13 +95,13 @@
                 <TextView
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
-                    android:textSize="16dp"
-                    android:text="No Pesanan"/>
+                    android:textSize="16sp"
+                    android:text="@string/no_pesanan"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="16dp"
+                    android:textSize="16sp"
                     android:layout_marginRight="8dp"
                     android:text=":"/>
 
@@ -109,7 +109,7 @@
                     android:id="@+id/detail_no_pesanan"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="16dp"
+                    android:textSize="16sp"
                     android:text="No Pesanan"/>
 
             </LinearLayout>
@@ -121,13 +121,13 @@
                 <TextView
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
-                    android:textSize="16dp"
-                    android:text="Layanan"/>
+                    android:textSize="16sp"
+                    android:text="@string/layanan"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="16dp"
+                    android:textSize="16sp"
                     android:layout_marginRight="8dp"
                     android:text=":"/>
 
@@ -135,7 +135,7 @@
                     android:id="@+id/detail_layanan"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="16dp"
+                    android:textSize="16sp"
                     android:text="Layanan"/>
 
             </LinearLayout>
@@ -147,13 +147,13 @@
                 <TextView
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
-                    android:textSize="16dp"
-                    android:text="Parfum"/>
+                    android:textSize="16sp"
+                    android:text="@string/parfum"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="16dp"
+                    android:textSize="16sp"
                     android:layout_marginRight="8dp"
                     android:text=":"/>
 
@@ -161,7 +161,7 @@
                     android:id="@+id/detail_parfum"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="16dp"
+                    android:textSize="16sp"
                     android:text="Parfum"/>
 
             </LinearLayout>
@@ -173,13 +173,13 @@
                 <TextView
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
-                    android:textSize="16dp"
-                    android:text="Berat"/>
+                    android:textSize="16sp"
+                    android:text="@string/berat"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="16dp"
+                    android:textSize="16sp"
                     android:layout_marginRight="8dp"
                     android:text=":"/>
 
@@ -187,7 +187,7 @@
                     android:id="@+id/detail_berat"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="16dp"
+                    android:textSize="16sp"
                     android:text="Berat"/>
 
             </LinearLayout>
@@ -203,7 +203,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Total Biaya:"
-                android:textSize="16dp"/>
+                android:textSize="16sp"/>
 
             <TextView
                 android:id="@+id/detail_harga"
@@ -211,7 +211,7 @@
                 android:layout_height="wrap_content"
                 android:paddingRight="8dp"
                 android:text="Rp. 20.000"
-                android:textSize="28dp"/>
+                android:textSize="28sp"/>
         </LinearLayout>
 
     </LinearLayout>
