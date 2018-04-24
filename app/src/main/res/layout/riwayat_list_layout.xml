@@ -5,15 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
-    tools:context=".RiwayatLaundry"
+    tools:context=".HomeFragment"
     android:padding="8dp">
 
     <ImageView
         android:id="@+id/foto_toko"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:background="#eee"
-        android:scaleType="centerCrop"/>
+        android:background="#eee"/>
 
     <LinearLayout
         android:orientation="vertical"
