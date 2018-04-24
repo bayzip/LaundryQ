@@ -11,16 +11,16 @@ import android.widget.TextView;
 
 public class CustomAdapter extends BaseAdapter {
     Context c;
-    int[] fotoToko = {R.drawable.adin, R.drawable.sofyan, R.drawable.ashil, R.drawable.rachmad, R.drawable.muhammad};
-    String[] namaToko = {"Adin Laundry", "Sofyan Laundry", "Ashil Laundry", "Rachmad Laundry", "Muhammad Laundry"};
-    String[] tanggal = {"02 April 2018", "28 Maret 2018", "24 Maret 2018", "22 Maret 2018", "2 Maret 2018"};
-    double[] berat = {5, 4.5, 3, 2.2, 3.2};
-    String[] status = {"Dalam Proses", "Selesai", "Selesai", "Selesai", "Batal"};
-    String[] id = {"000001", "000002", "000004", "000005", "000006"};
-    String[] noPesanan = {"0023", "0123", "0010", "0002", "0003"};
-    String[] parfum = {"Lavender", "Aqua", "Sakura", "Lavender", "Sakura"};
-    String[] layanan = {"Normal", "Normal", "Normal", "Normal", "Normal"};
-    int[] rating = {4, 4, 5, 3, 4};
+    int[] fotoToko = {R.drawable.adin, R.drawable.sofyan, R.drawable.ashil, R.drawable.rachmad, R.drawable.muhammad, R.drawable.edward, R.drawable.edward};
+    String[] namaToko = {"Adin Laundry", "Sofyan Laundry", "Ashil Laundry", "Rachmad Laundry", "Muhammad Laundry", "Edward Laundry", "Edward Laundry"};
+    String[] tanggal = {"02 April 2018", "28 Maret 2018", "24 Maret 2018", "22 Maret 2018", "2 Maret 2018", "1 Maret 2018", "1 Maret 2018"};
+    double[] berat = {5, 4.5, 3, 2.2, 3.2, 4, 2.5};
+    String[] status = {"Dalam Proses", "Selesai", "Selesai", "Selesai", "Batal", "Selesai", "Selesai"};
+    String[] id = {"000001", "000002", "000004", "000005", "000006", "000012", "000012"};
+    String[] noPesanan = {"0023", "0123", "0010", "0002", "0003", "0123", "0122"};
+    String[] parfum = {"Lavender", "Aqua", "Sakura", "Lavender", "Sakura", "Jeruk", "Jeruk"};
+    String[] layanan = {"Normal", "Normal", "Normal", "Normal", "Normal", "Normal", "Normal"};
+    int[] rating = {4, 4, 5, 3, 4, 5};
 
 
     public CustomAdapter(Context ctx) {

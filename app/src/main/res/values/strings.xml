@@ -4,56 +4,8 @@
     <string name="title_help">Help</string>
     <string name="title_profile">Profile</string>
 
-<<<<<<< HEAD
-    <!-- Strings related to Detail Laundry Activity -->
-    <string name="title_detail_laundry">DetailLaundry</string>
-    <string name="detail_laundry">Detail Laundry</string>
-    <string name="no_pesanan">No Pesanan</string>
-    <string name="layanan">Layanan</string>
-    <string name="parfum">Parfum</string>
-    <string name="berat">Berat</string>
-    <string name="detail_pembayaran">Detail Pembayaran</string>
-    <string name="biaya_cucian">Biaya Laundry     :</string>
-    <string name="biaya_layanan">Biaya Pelayanan     :</string>
-    <string name="biaya_total">Total Biaya     :</string>
-    <string name="test_text">TextView Test</string>
-    <string name="nama_toko">Nama Toko</string>
-    <string name="_02_april_2018">02 April 2018</string>
-    <string name="_3kg_rp_12_000">3kg - Rp. 12.000,-</string>
-    <string name="selesai">Selesai</string>
-    <string name="todo">TODO</string>
-    <string name="laundryq">LaundryQ</string>
-    <string name="rincian_cucian">Rincian Cucian</string>
-    <string name="id_laundry">ID Outlet</string>
-    <string name="tanggal_laundry">Tanggal Laundry</string>
-    <string name="nama_laundry">Nama Laundry</string>
-    <string name="total_biaya_rp_18_000">Total Biaya : Rp. 18.000,-</string>
-    <string name="todo">TODO</string>
-    <string name="no_pesanan_15">No. Pesanan : 15</string>
-    <string name="layanan_reguler">Layanan : Reguler</string>
-    <string name="parfum_molto_mewah">Parfum : Molto Mewah</string>
-    <string name="berat_2kg">Berat : 2kg</string>
-    <string name="rincian_biaya">Rincian Biaya</string>
-    <string name="cucian_rp_15_000">Cucian : Rp. 15.000,-</string>
-    <string name="layanan_rp_3_000">Layanan : Rp. 3.000,-</string>
-    <string name="todo">TODO</string>
-    <string name="username">Username</string>
-    <string name="password">Password</string>
-    <string name="masuk">Masuk</string>
-    <string name="belum_punya_akun_daftar_sekarang">Belum punya akun? Daftar sekarang</string>
-</resources>
-=======
-    <string name="long_text">Android is a mobile operating system developed by Google, based on a modified version of the Linux kernel and other open source software and designed primarily for touchscreen mobile devices such as smartphones and tablets. In addition, Google has further developed Android TV for televisions, Android Auto for cars, and Android Wear for wrist watches, each with a specialized user interface. Variants of Android are also used on game consoles, digital cameras, PCs and other electronics.
-
-Initially developed by Android Inc., which Google bought in 2005, Android was unveiled in 2007, with the first commercial Android device launched in September 2008. The operating system has since gone through multiple major releases, with the current version being 8.1 "Oreo", released in December 2017.
-
-Android has been the best-selling OS worldwide on smartphones since 2011 and on tablets since 2013. As of May 2017, it has over two billion monthly active users, the largest installed base of any operating system, and as of 2017, the Google Play store features over 3.5 million apps.\n\n\tAndroid\'s default user interface is mainly based on direct manipulation, using touch inputs that loosely correspond to real-world actions, like swiping, tapping, pinching, and reverse pinching to manipulate on-screen objects, along with a virtual keyboard. Game controllers and full-size physical keyboards are supported via Bluetooth or USB. The response to user input is designed to be immediate and provides a fluid touch interface, often using the vibration capabilities of the device to provide haptic feedback to the user. Internal hardware, such as accelerometers, gyroscopes and proximity sensors are used by some applications to respond to additional user actions, for example adjusting the screen from portrait to landscape depending on how the device is oriented, or allowing the user to steer a vehicle in a racing game by rotating the device, simulating control of a steering wheel.
-
-Android devices boot to the homescreen, the primary navigation and information "hub" on Android devices, analogous to the desktop found on personal computers. Android homescreens are typically made up of app icons and widgets; app icons launch the associated app, whereas widgets display live, auto-updating content, such as a weather forecast, the user\'s email inbox, or a news ticker directly on the homescreen. A homescreen may be made up of several pages, between which the user can swipe back and forth. Third-party apps available on Google Play and other app stores can extensively re-theme the homescreen, and even mimic the look of other operating systems, such as Windows Phone. Most manufacturers customize the look and features of their Android devices to differentiate themselves from their competitors.
-
-Along the top of the screen is a status bar, showing information about the device and its connectivity. This status bar can be "pulled" down to reveal a notification screen where apps display important information or updates. Notifications are "short, timely, and relevant information about your app when it’s not in use", and when tapped, users are directed to a screen inside the app relating to the notification. Beginning with Android 4.1 "Jelly Bean", "expandable notifications" allow the user to tap an icon on the notification in order for it to expand and display more information and possible app actions right from the notification.</string>
+    <string name="long_text">Android is a mobile operating system developed by Google, based on a modified version of the Linux kernel and other open source software and designed primarily for touchscreen mobile devices such as smartphones and tablets. In addition, Google has further developed Android TV for televisions, Android Auto for cars, and Android Wear for wrist watches, each with a specialized user interface. Variants of Android are also used on game consoles, digital cameras, PCs and other electronics</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
->>>>>>> master

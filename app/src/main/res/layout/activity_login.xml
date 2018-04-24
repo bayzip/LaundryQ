@@ -16,17 +16,6 @@
         android:paddingLeft="24dp" >
 
         <!--username-->
-<<<<<<< HEAD
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            app:srcCompat="@drawable/logo"
-            android:contentDescription="@string/todo" />
-
-=======
->>>>>>> master
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -36,7 +25,7 @@
                 android:id="@+id/username"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/username"
+                android:hint="Username"
                 android:inputType="text"/>
         </android.support.design.widget.TextInputLayout>
 
@@ -50,7 +39,7 @@
                 android:id="@+id/password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/password"
+                android:hint="Password"
                 android:inputType="textPassword"/>
         </android.support.design.widget.TextInputLayout>
 
@@ -64,28 +53,18 @@
             android:background="@color/colorPrimaryDark"
             android:textColor="#fff"
             android:padding="12dp"
-<<<<<<< HEAD
-            android:text="@string/masuk"
-            android:onClick="goToLaundryHistory"/>
-=======
             android:text="Login"
             android:onClick="Login"/>
->>>>>>> master
 
         <!--register link-->
         <TextView android:id="@+id/link_register"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="24dp"
-            android:text="@string/belum_punya_akun_daftar_sekarang"
+            android:text="Belum punya akun? Daftar sekarang"
             android:gravity="center"
-<<<<<<< HEAD
-            android:textSize="16sp"
-            android:onClick="goToRegisterPage"/>
-=======
             android:textSize="16dip"
             android:onClick="Register"/>
->>>>>>> master
 
     </LinearLayout>
 </ScrollView>
