@@ -1,10 +1,11 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ProfileFragment"
     android:background="#f7f7f7"
-    android:padding="20px">
+    android:padding="20px"
+    android:orientation="vertical">
 
     <LinearLayout
         android:orientation="vertical"
@@ -95,13 +96,14 @@
                     android:text="app rating"/>
 
                 <Button
+                    android:id="@+id/logoutBtn"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="#fdfdfd"
                     android:textColor="#ff0000"
                     android:textStyle="bold"
                     android:layout_marginTop="20dp"
-                    android:text="Logout" />
+                    android:text="Logout"/>
 
             </LinearLayout>
 
@@ -109,4 +111,4 @@
 
     </LinearLayout>
 
-</FrameLayout>
+</LinearLayout>
