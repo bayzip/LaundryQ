@@ -13,13 +13,13 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
     }
 
-    public void Login(View view){
-        Intent login = new Intent(LoginActivity.this, MainActivity.class);
-        startActivity(login);
+    public void Pelanggan(View view){
+        Intent pelanggan = new Intent(LoginActivity.this, LoginPelangganActivity.class);
+        startActivity(pelanggan);
     }
 
-    public void Register(View view) {
-        Intent register = new Intent(this, RegisterActivity.class);
-        startActivity(register);
+    public void Pegawai(View view) {
+        Intent pegawai = new Intent(LoginActivity.this, LoginPegawaiActivity.class);
+        startActivity(pegawai);
     }
 }

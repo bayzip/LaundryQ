@@ -18,8 +18,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".LoginActivity" />
+        <activity android:name=".AddLaundryActivity" />
         <activity android:name=".RegisterActivity" />
-        <activity android:name=".DetailActivity"></activity>
+        <activity android:name=".DetailActivity" />
+        <activity android:name=".LoginPelangganActivity" />
+        <activity android:name=".LoginPegawaiActivity" />
+        <activity android:name=".RegisterPegawaiActivity"></activity>
     </application>
 
 </manifest>
