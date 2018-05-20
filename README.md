@@ -9,8 +9,11 @@ LaundryQ merupakan aplikasi yang dapat membantu proses bisnis laundry secara man
 ### Daftar
 <p><img src="http://preview.ibb.co/fP2zUx/daftar.jpg" width="450"/></p>
 
+### Profile
+<p><img src="https://preview.ibb.co/fSw64H/493093.jpg" width="450"/></p>
+
 ### History Transaksi
-<p><img src="http://preview.ibb.co/n8Rtpx/list.jpg" width="450"/></p>
+<p><img src="https://preview.ibb.co/cseR4H/493094.jpg"/></p>
 
 ### Detail Transaksi
 <p><img src="http://preview.ibb.co/iLxYpx/detail.jpg" width="450"/></p>
