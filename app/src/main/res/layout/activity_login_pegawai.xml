@@ -4,104 +4,78 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegisterActivity"
+    tools:context=".LoginPegawaiActivity"
     android:fitsSystemWindows="true">
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="56dp"
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
         android:paddingRight="24dp"
-        android:paddingLeft="24dp" >
+        android:paddingTop="56dp">
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="Register Pelanggan"
+            android:text="Login Pegawai"
             android:textAppearance="@style/TextAppearance.AppCompat.Title" />
-
-        <!--email-->
-        <android.support.design.widget.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="8dp">
-            <EditText
-                android:id="@+id/email"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Email"
-                android:inputType="textEmailAddress"/>
-        </android.support.design.widget.TextInputLayout>
 
         <!--username-->
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="8dp">
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp">
+
             <EditText
                 android:id="@+id/username"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Username"
-                android:inputType="text"/>
+                android:inputType="text" />
         </android.support.design.widget.TextInputLayout>
 
         <!--password-->
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="8dp">
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp">
+
             <EditText
                 android:id="@+id/password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Password"
-                android:inputType="textPassword"/>
+                android:inputType="textPassword" />
         </android.support.design.widget.TextInputLayout>
 
-        <!--password confirmation-->
-        <android.support.design.widget.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="8dp">
-            <EditText
-                android:id="@+id/password-confirmation"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Konfirmasi Password"
-                android:inputType="textPassword"/>
-        </android.support.design.widget.TextInputLayout>
-
-        <!--register btn-->
+        <!--login btn-->
         <android.support.v7.widget.AppCompatButton
             android:id="@+id/btn_login"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
             android:layout_marginBottom="24dp"
+            android:layout_marginTop="24dp"
             android:background="@color/colorPrimaryDark"
-            android:textColor="#fff"
+            android:onClick="Login"
             android:padding="12dp"
-            android:text="Register"
-            android:onClick="Register"/>
+            android:text="Login"
+            android:textColor="#fff" />
 
-        <!--Login link-->
-        <TextView android:id="@+id/link_login"
+        <!--register link-->
+        <TextView
+            android:id="@+id/link_register"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="24dp"
-            android:text="Sudah punya akun? Masuk"
             android:gravity="center"
-            android:textSize="16dip"
-            android:onClick="Login"/>
+            android:onClick="Register"
+            android:text="Belum punya akun? Daftar sekarang"
+            android:textSize="16dip" />
 
     </LinearLayout>
-
 </ScrollView>

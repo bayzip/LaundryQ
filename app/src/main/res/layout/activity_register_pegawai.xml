@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegisterActivity"
+    tools:context=".RegisterPegawaiActivity"
     android:fitsSystemWindows="true">
 
     <LinearLayout
@@ -20,7 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="Register Pelanggan"
+            android:text="Register Pegawai"
             android:textAppearance="@style/TextAppearance.AppCompat.Title" />
 
         <!--email-->
@@ -89,7 +89,7 @@
             android:background="@color/colorPrimaryDark"
             android:textColor="#fff"
             android:padding="12dp"
-            android:text="Register"
+            android:text="Register Pegawai"
             android:onClick="Register"/>
 
         <!--Login link-->
