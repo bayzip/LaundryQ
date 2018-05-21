@@ -15,6 +15,14 @@
         android:paddingRight="24dp"
         android:paddingLeft="24dp" >
 
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Login Pelanggan"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
         <!--username-->
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"

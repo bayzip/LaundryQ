@@ -19,11 +19,11 @@
         </activity>
         <activity android:name=".LoginActivity" android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".AddLaundryActivity" />
-        <activity android:name=".RegisterActivity" />
+        <activity android:name=".RegisterActivity" android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".DetailActivity" />
-        <activity android:name=".LoginPelangganActivity" />
-        <activity android:name=".LoginPegawaiActivity" />
-        <activity android:name=".RegisterPegawaiActivity"></activity>
+        <activity android:name=".LoginPelangganActivity" android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".LoginPegawaiActivity" android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".RegisterPegawaiActivity" android:theme="@style/AppTheme.NoActionBar" ></activity>
     </application>
 
 </manifest>
