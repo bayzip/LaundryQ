@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePegawaiFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Home pegawai fragment" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/add_laundry"
+        android:layout_width="wrap_content"
+        android:layout_height="114dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:layout_marginBottom="70dp"
+        android:src="@android:drawable/ic_input_add"
+        android:tint="@android:color/background_light"
+        app:rippleColor="@android:color/background_light"
+        app:elevation="6dp"/>
+
+</FrameLayout>

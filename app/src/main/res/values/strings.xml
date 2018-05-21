@@ -2,6 +2,7 @@
     <string name="app_name">LaundryQ</string>
     <string name="title_home">Home</string>
     <string name="title_help">Help</string>
+    <string name="title_riwayat">Riwayat</string>
     <string name="title_profile">Profile</string>
 
     <string name="long_text">Android is a mobile operating system developed by Google, based on a modified version of the Linux kernel and other open source software and designed primarily for touchscreen mobile devices such as smartphones and tablets. In addition, Google has further developed Android TV for televisions, Android Auto for cars, and Android Wear for wrist watches, each with a specialized user interface. Variants of Android are also used on game consoles, digital cameras, PCs and other electronics</string>
