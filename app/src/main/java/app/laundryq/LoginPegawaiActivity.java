@@ -14,7 +14,7 @@ public class LoginPegawaiActivity extends AppCompatActivity {
     }
 
     public void Login(View view){
-        Intent login = new Intent(LoginPegawaiActivity.this, AddLaundryActivity.class);
+        Intent login = new Intent(LoginPegawaiActivity.this, MainPegawaiActivity.class);
         startActivity(login);
     }
 
