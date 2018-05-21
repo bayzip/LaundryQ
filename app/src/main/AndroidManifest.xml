@@ -10,20 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
-        <activity android:name=".SplashActivity">
+        <activity android:name=".SplashActivity" android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity" />
+        <activity android:name=".LoginActivity" android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".AddLaundryActivity" />
-        <activity android:name=".RegisterActivity" />
+        <activity android:name=".RegisterActivity" android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".DetailActivity" />
-        <activity android:name=".LoginPelangganActivity" />
-        <activity android:name=".LoginPegawaiActivity" />
-        <activity android:name=".RegisterPegawaiActivity"></activity>
+        <activity android:name=".LoginPelangganActivity" android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".LoginPegawaiActivity" android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".RegisterPegawaiActivity" android:theme="@style/AppTheme.NoActionBar" ></activity>
     </application>
 
 </manifest>

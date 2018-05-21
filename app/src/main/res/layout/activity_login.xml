@@ -9,19 +9,23 @@
 
     <Button
         android:id="@+id/button_pelanggan"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="320dp"
         android:layout_height="70dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="132dp"
+        android:layout_marginTop="197dp"
         android:onClick="Pelanggan"
         android:text="@string/login_pelanggan" />
 
     <Button
         android:id="@+id/button_pegawai"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="320dp"
         android:layout_height="70dp"
-        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="216dp"
         android:onClick="Pegawai"
         android:text="@string/login_pegawai" />
 </RelativeLayout>
