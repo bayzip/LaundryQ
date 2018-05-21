@@ -6,13 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".SplashActivity">
 
-    <TextView
-        android:layout_width="match_parent"
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="LaundryQ"
+        android:layout_alignParentStart="true"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:textSize="24dp"
-        android:textAlignment="center"/>
+        app:srcCompat="@drawable/logo" />
 
 </RelativeLayout>
