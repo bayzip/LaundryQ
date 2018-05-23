@@ -35,36 +35,38 @@
                 android:layout_marginBottom="20dp">
 
                 <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     android:src="@drawable/images" />
 
                 <LinearLayout
                     android:orientation="vertical"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="20dp"
-                    android:paddingTop="15dp">
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp">
 
                     <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Muhammad Edward C"
-                        android:textSize="18dp"/>
+                        android:layout_height="0dp"
+                        android:layout_weight="1.2"
+                        android:text="Muhammad Edward Chakim"
+                        android:textStyle="bold"
+                        android:textSize="16dp"/>
 
                     <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
                         android:text="edward@edward.com"
-                        android:textSize="18dp"/>
+                        android:textSize="14dp"/>
 
                     <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
                         android:text="edit profil"
-                        android:textSize="18dp"
+                        android:textSize="14dp"
                         android:textColor="@color/colorPrimary"/>
-
                 </LinearLayout>
 
             </LinearLayout>
