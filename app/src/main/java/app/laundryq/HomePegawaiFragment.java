@@ -38,7 +38,7 @@ public class HomePegawaiFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 AlertDialog.Builder alert = new AlertDialog.Builder(getContext());
-                alert.setMessage("Apakah Anda ingin mengkonfirmasi pesanan selesai?");
+                alert.setMessage("Apakah Anda ingin mengkonfirmasi pesanan sudah diambil?");
 
                 alert.setPositiveButton("Ya", new DialogInterface.OnClickListener() {
                     @Override
