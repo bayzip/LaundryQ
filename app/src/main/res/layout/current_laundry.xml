@@ -76,7 +76,8 @@
                     android:paddingLeft="5dp"
                     android:paddingRight="5dp"
                     android:textColor="#fff"
-                    android:background="@color/colorPrimary"/>
+                    android:background="@color/colorPrimary"
+                    android:onClick="confirmationClicked"/>
             </LinearLayout>
         </LinearLayout>
     </android.support.v7.widget.CardView>
