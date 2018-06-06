@@ -8,16 +8,11 @@
     tools:context=".HomeFragment"
     android:padding="8dp">
 
-    <ImageView
-        android:id="@+id/foto_toko"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:background="#eee"/>
-
     <LinearLayout
         android:orientation="vertical"
-        android:layout_width="200dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_weight="4"
         android:layout_gravity="center"
         android:paddingLeft="8dp"
         android:paddingRight="5dp">
@@ -36,27 +31,53 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="02 April 2018"
-            android:layout_marginTop="6dp"
-            android:layout_marginBottom="6dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
             android:textSize="16sp"/>
 
         <TextView
             android:id="@+id/berat_biaya"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="3kg - Rp. 12.000,-"
+            android:text="3kg"
             android:textSize="16sp" />
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/status"
-        android:layout_width="match_parent"
+    <LinearLayout
+        android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:text="Selesai"
-        android:background="#52a321"
-        android:textColor="#fff"
-        android:padding="5dp"
-        android:textAlignment="center"
-        android:gravity="center"/>
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="8dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textAlignment="textEnd"
+            android:text="Selesai"
+            android:textColor="#000" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/biaya"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textEnd"
+                android:layout_alignParentBottom="true"
+                android:text="Rp. 120.000,-"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </LinearLayout>
 
 </LinearLayout>
