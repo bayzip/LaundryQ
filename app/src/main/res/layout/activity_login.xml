@@ -4,10 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
     android:orientation="vertical"
     tools:context=".LoginActivity"
-    android:fitsSystemWindows="true"
-    android:paddingTop="50dp">
+    android:fitsSystemWindows="true">
 
     <ImageView
         android:layout_width="150dp"
@@ -37,7 +38,6 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
-        android:layout_marginBottom="230dp"
         android:onClick="Pegawai"
         android:text="@string/login_pegawai" />
 </LinearLayout>
